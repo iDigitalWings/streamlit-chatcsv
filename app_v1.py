@@ -32,3 +32,4 @@ if __name__ == '__main__':
                     st.info(f"问题: {input_text}")
                     df = PandasAI(OpenAI(api_token=openai_api_key), verbose=True)
                     st.write(df.run(data, input_text))
+
